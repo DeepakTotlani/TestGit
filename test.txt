@@ -1,0 +1,1 @@
+This i smy first text file for git
