@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testing.org/testing-1.0.dtc">
+<suite name="FREE CRM APPLICATION test automation" >
+
+<listners>
+<listner class name="com.qa.ExtentReportListner.ExtentReportListner"/>
+</listners>
+	<test name = "FREE CRM APP test cases">
+		<classes>
+			<class name="com.crm.qa.testcases.LoginPageTest"></class>
+			<class name="com.crm.qa.testcases.HomePageTest"></class>
+			<class name="com.crm.qa.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+</suite>
+
+<!--  test runner class - all test cases will run
+can be created as regression, sanity -->
